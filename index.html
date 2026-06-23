@@ -822,12 +822,12 @@
       <div class="hero-loc">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FF5200" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
         <select id="citySelect">
-          <option>Jaipur</option>
-          <option>Jodhpur</option>
-          <option>Udaipur</option>
-          <option>Ajmer</option>
-          <option>Kota</option>
-          <option>Bikaner</option>
+          <option>Jayal</option>
+          <option>Nagour</option>
+          <option>Didwana</option>
+          <option>Kuchaman</option>
+          <option>Deh</option>
+          <option>Kuchera</option>
         </select>
       </div>
       <input type="text" placeholder="Search for dal baati, pizza, biryani..." id="heroSearch" oninput="filterRestaurants(this.value)" />
@@ -991,8 +991,8 @@
 <script>
   // ── DATA ──
   const restaurants = [
-    { id:1, name:'Laxmi Mishthan Bhandar', cuisine:'Rajasthani, Sweets', rating:4.6, time:'20-30', price:0, discount:'20% OFF up to ₹100', isNew:false, veg:true, tags:['Rajasthani','Desserts','Thali'], img:'https://b.zmtcdn.com/data/pictures/chains/3/20303/3c94be9a4d7b696c855f97d0cf44e8be.jpg', desc:'Iconic Jaipur sweet shop famous for ghewar, dal baati churma and traditional Rajasthani thalis.', items:[{n:'Dal Baati Churma',p:180},{n:'Ghewar Thali',p:250},{n:'Malpua',p:80}] },
-    { id:2, name:'Suvarna Mahal – Taj Rambagh', cuisine:'North Indian, Mughlai', rating:4.8, time:'35-45', price:60, discount:'', isNew:false, veg:false, tags:['Biryani','Thali'], img:'https://b.zmtcdn.com/data/pictures/chains/4/20994/03d77de5b5d6665ee7de12ac614023ac.jpg', desc:'Royal dining experience at Jaipur\'s iconic Rambagh Palace with authentic Mughlai cuisine.', items:[{n:'Dum Gosht Biryani',p:550},{n:'Shahi Paneer',p:380},{n:'Dal Makhani',p:260}] },
+    { id:1, name:'Janta Sweets & Restaurant', cuisine:'Rajasthani, Sweets', rating:4.6, time:'20-30', price:0, discount:'20% OFF up to ₹100', isNew:false, veg:true, tags:['Rajasthani','Desserts','Thali'], img:'https://i.ibb.co/mrshHn2h/janta-hotel-and-restaurant-jayal-jayal-nagaur-6u6ut6teap.jpg" alt="janta-hotel-and-restaurant-jayal-jayal-nagaur-6u6ut6teap" border="0"></a>', desc:'Iconic Jaipur sweet shop famous for ghewar, dal baati churma and traditional Rajasthani thalis.', items:[{n:'Dal Baati Churma',p:180},{n:'Ghewar Thali',p:250},{n:'Malpua',p:80}] },
+    { id:2, name:'New Ganesh Misthan Bhandar Jayal', cuisine:'Rajasthani, Marwadi', rating:4.8, time:'35-45', price:60, discount:'', isNew:false, veg:false, tags:['Biryani','Thali'], img:'https://i.ibb.co/sdqrwKTn/m-Jayal-Ganesh-Mishthan-Bhandar-l-600-900.jpg" alt="m-Jayal-Ganesh-Mishthan-Bhandar-l-600-900" border="0"></a>', desc:'Royal dining experience at Jaipur\'s iconic Rambagh Palace with authentic Mughlai cuisine.', items:[{n:'Dum Gosht Biryani',p:550},{n:'Shahi Paneer',p:380},{n:'Dal Makhani',p:260}] },
     { id:3, name:'Spice Court', cuisine:'Rajasthani, North Indian', rating:4.4, time:'25-35', price:0, discount:'Free delivery', isNew:false, veg:false, tags:['Rajasthani','Thali'], img:'https://b.zmtcdn.com/data/pictures/chains/8/18348/2deb1a55e47f45ee0eb9a1c29a0c3a34.jpg', desc:'Authentic Rajasthani folk restaurant with live cultural performances and traditional thalis.', items:[{n:'Royal Rajasthani Thali',p:350},{n:'Laal Maas',p:320},{n:'Ker Sangri',p:180}] },
     { id:4, name:"Domino's Pizza", cuisine:'Pizza, Fast Food', rating:4.2, time:'20-30', price:29, discount:'2 Pizzas ₹399', isNew:false, veg:false, tags:['Pizza'], img:'https://b.zmtcdn.com/data/pictures/chains/5/3957/3e52d4cbf6aec1c7f7a44bc2dc2c9c14.jpg', desc:'America\'s favourite pizza chain serving fresh, hot pizzas with guaranteed 30-minute delivery.', items:[{n:'Farmhouse Pizza (M)',p:349},{n:'Peppy Paneer (L)',p:499},{n:'Pasta Italiano',p:199}] },
     { id:5, name:'Handi Restaurant', cuisine:'North Indian, Chinese', rating:4.3, time:'30-40', price:0, discount:'', isNew:true, veg:false, tags:['Chinese','Biryani'], img:'https://b.zmtcdn.com/data/pictures/chains/3/18513/33c4e4b56d3fc98e5f4a1d0b9f26d93c.jpg', desc:'Popular multi-cuisine restaurant serving North Indian specialties and Indo-Chinese dishes.', items:[{n:'Paneer Butter Masala',p:220},{n:'Chicken Fried Rice',p:180},{n:'Veg Hakka Noodles',p:150}] },
